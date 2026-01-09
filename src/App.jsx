@@ -1,6 +1,7 @@
- import DealsBoard from "./comonents/DealsBoard";
- import Navbar from "./comonents/Navbar";
+import DealsBoard from "./components/DealsBoard";
+import Navbar from "./components/Navbar";
 
+ 
 const App = () => {
   return (
     <>

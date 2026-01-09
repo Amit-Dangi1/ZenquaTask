@@ -6,13 +6,11 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg bg-white border-bottom px-4">
         <div className="container-fluid">
 
-          {/* Logo */}
-          <a className="navbar-brand fw-bold d-flex align-items-center" href="#">
+           <a className="navbar-brand fw-bold d-flex align-items-center" href="#">
             <span className="text-primary">ROSTER</span>&nbsp;GRID
           </a>
 
-          {/* Toggle */}
-          <button
+           <button
             className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
@@ -21,8 +19,7 @@ const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          {/* Center Menu */}
-          <div className="collapse navbar-collapse  justify-content-center" id="navbarMain">
+           <div className="collapse navbar-collapse  justify-content-center" id="navbarMain">
             <ul className="navbar-nav gap-2 bg-light rounded-5 p-2">
 
               <li className="nav-item">
@@ -58,8 +55,7 @@ const Navbar = () => {
             </ul>
           </div>
 
-          {/* Right Section */}
-          <div className="d-flex align-items-center gap-3">
+           <div className="d-flex align-items-center gap-3">
             <i className="bi bi-bell fs-5 text-secondary"></i>
             <span className="fw-medium">Michael</span>
 
@@ -74,8 +70,7 @@ const Navbar = () => {
         </div>
       </nav>
 
-         {/* Hero Section */}
-      <div
+       <div
         className="container-fluid"
         style={{
           background: "linear-gradient(180deg, #f5f9ff, #eef3ff)",
