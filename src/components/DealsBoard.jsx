@@ -12,14 +12,14 @@ const DATA = [
         deal: "Chandan Deal",
         budget: 5000,
         assignee: "MS",
-        date: "2026-03-15",
+        date: "2025-02-15",
       },
       {
         client: "michael speed",
         deal: "some deal 4",
         budget: 7000,
         assignee: "MS",
-        date: "2028-08-20",
+        date: "2025-08-20",
       },
     ],
   },
@@ -33,7 +33,7 @@ const DATA = [
         deal: "Kiosk Project",
         budget: 50000,
         assignee: "VS",
-        date: "2028-10-10",
+        date: "2025-03-10",
       },
     ],
   },
@@ -42,7 +42,7 @@ const DATA = [
 const DealsBoard = () => {
   const [search, setSearch] = useState("");
   const [from, setFrom] = useState("2025-01-01");
-  const [to, setTo] = useState("2028-12-31");
+  const [to, setTo] = useState("2025-12-31");
 
 const filterDeals = (deal) => {
   const dealTime = new Date(deal.date + "T00:00:00").getTime();
